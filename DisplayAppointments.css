@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+table,th,td{
+    border: 2px solid black;
+    font-size: 18px;
+  
+}
+table{
+    border-collapse: collapse;
+    
+}
+td,th{
+    width: 150px;
+}
+tr{
+    text-align: center;
+   height: 80px;
+}

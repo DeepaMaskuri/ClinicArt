@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 1000px;
+}
+#formcontainer{
+    width: 700px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-image: url(./img/docAppointment.jpg); */
+}
+.det{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

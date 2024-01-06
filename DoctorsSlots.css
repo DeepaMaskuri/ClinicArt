@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table,th,td{
+    border: 2px solid black;
+    font-size: 18px;
+  
+}
+table{
+    border-collapse: collapse;
+    
+}
+td,th{
+    width: 150px;
+}
+tr{
+    text-align: center;
+   height: 80px;
+}

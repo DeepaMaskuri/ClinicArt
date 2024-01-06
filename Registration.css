@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    height: 750px;
+    background-image:  white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#container{
+	 width: 800px;
+    height: 750px;
+    background-image: linear-gradient(45deg ,skyblue, white,skyblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    
+}
+#Registration{
+    width: 800px;
+    height: 700px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.miniDiv{
+    width: 850px;
+    height: 200px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.common{
+    width: 250px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+}
+.details3,.details1{
+    width: 250px;
+    height: 230px;
+    background-color: transparent;
+}
+input{
+    width:200px;
+    height: 30px;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(154, 226, 248);
+    border: none;
+    border-radius: 5px;
+}
+h3{
+   
+    font-size: 23px;
+    font-weight: 5px;
+    position: relative;
+    left: 10px;
+}
+h4{
+    font-size: 16px;
+    
+}
+#sign{
+    background-image: linear-gradient(45deg,skyblue,navy,skyblue);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
